@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Table</h1>
+    <table border="1">
+        <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>rohit@gmail.com</td>
+            <td>BCA</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>priya@gmail.com</td>
+            <td>BSc</td>
+            <td>Jaipur</td>
+        </tr>
+        <tr>
+            <td>Ankit</td>
+            <td>ankit@gmail.com</td>
+            <td>BTech</td>
+            <td>Mumbai</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1>Student Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter Name" id="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter Email" id="email">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter Password" id="password">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" min="1" min="35" placeholder="Enter Age" id="age">
+        <br><br>
+
+        <label for="gender">Gender:</label> <br>
+        <input type="radio"name="gender"> Male <br>
+        <input type="radio"name="gender"> Female <br>
+        <br>
+
+        <label for="skills">Skills:</label> <br>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label> <br>
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label> <br>
+        <input type="checkbox" id="javascript">
+        <label for="javascript">JavaScript</label> <br>
+        <br>
+
+        <label for="city">City:</label> <br>
+        <select id="city">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Jaipur</option>
+        </select>
+        <br><br>
+
+        <label for="date of birth">Date of Birth:</label> <br>
+        <input type="date" id="date of birth">
+        <br><br>
+
+        <label for="upload photo">Upload Photo:</label> <br>
+        <input type="file" id="upload photo">
+        <br><br>
+
+        <label for="message">Message:</label> <br>
+        <textarea id="messages" placeholder="Enter your messages"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="disable">Disable</button>
+        <br><br>
+
+        <input type="image" src="submit.png" alt="Submit">
+        
+    </form>
+</body>
+</html>
